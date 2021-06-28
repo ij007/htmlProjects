@@ -62,35 +62,145 @@ nav {
 
 #nav-bar {
 
-    margin-left: 900px;
-    display: grid;
-    text-align:center;
-    grid-template-columns: 100px 230px 90px;
+  margin-left: 900px;
+  display: grid;
+  text-align:center;
+  grid-template-columns: 100px 230px 90px;
 
 }
 
 .tag-line{
 
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    align-content: center;
-    margin: 100px auto 100px auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+  margin: 100px auto 100px auto;
     
 }
 
 .tag-line > h2 {
 
-    padding-bottom: 20px;
-    font-size: 2em;
+  padding-bottom: 20px;
+  font-size: 2.5em;
 }
 
-@media (max-width: 650px) {
-    
+#form{
+
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 20px auto;
+  width: 200px;
+  align-items: center;
+
 }
 
+#email{
 
+  height: 30px;
+  margin-bottom: 20px;
+  width: 300px;
+
+}
+
+#submit{
+
+  height: 25px;
+  width: 100px;
+  background-color: #f1c40f;
+  border: 0;
+
+}
+
+.features {
+
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.grid{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto 20px auto;
+
+}
+
+.grid > img{
+
+  height: 125px;
+  width: 10vw;
+  padding: auto;
+
+}
+
+#howitwork{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 50px ;
+
+}
+
+.pricing{
+
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.product {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px auto 10px auto;
+  width: 500px;
+  border: 1px solid #000;
+  border-radius: 3px;
+
+}
+
+.product > .heading {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+.product > ol {
+  margin: 15px 0;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+}
+
+.product > .button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #cff10f;
+  font-weight: 400;
+}
+
+.product > .button:hover {
+  background-color: orange;
+
+}
 
 li {
     list-style: none;
@@ -103,4 +213,27 @@ li {
   width: 25%;
   height: 25%;
 
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
 }
